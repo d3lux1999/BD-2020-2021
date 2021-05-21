@@ -30,7 +30,7 @@ INSERT INTO category values ('Bathroom Items');
 INSERT INTO category values ('Bedroom Items');
 INSERT INTO category values ('Cars');
 INSERT INTO category values ('Comic book heroes');
-INSERT INTO category values ('Dairy products');
+INSERT INTO category values ('Dairy product');
 INSERT INTO category values ('Fast food');
 INSERT INTO category values ('Furniture');
 INSERT INTO category values ('Junk food');
