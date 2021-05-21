@@ -43,8 +43,16 @@ except Exception as e:
 # Print errors on the webpage if they occur 
     print('<h1>An error occurred. :(</h1>') 
     print('<p>{}</p>'.format(e))
+    print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/homepage.cgi" method="post">')
+    print('<input type="submit" value="Back to Homepage" />')
+    print('</form>')
 finally:
     if connection is not None:
         connection.close() 
+
+print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/homepage.cgi" method="post">')
+print('<input type="submit" value="Back to Homepage" />')
+print('</form>')
+
 print('</body>')
 print('</html>')

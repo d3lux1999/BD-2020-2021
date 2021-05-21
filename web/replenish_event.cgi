@@ -38,6 +38,13 @@ try:
 except Exception as e:
 	print('<h1>An error occurred.</h1>')
 	print('<p>', e, '</p>')
+        print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/homepage.cgi" method="post">')
+        print('<input type="submit" value="Back to Homepage" />')
+        print('</form>')
+
+print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/homepage.cgi" method="post">')
+print('<input type="submit" value="Back to Homepage" />')
+print('</form>')
 
 print('</body>')
 print('</html>')
