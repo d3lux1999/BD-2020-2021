@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS d_date CASCADE;
+DROP TABLE IF EXISTS d_product CASCADE;
+DROP TABLE IF EXISTS concerning_products CASCADE;
+
+
 CREATE TABLE d_date (
     id_date INTEGER,
     day INTEGER NOT NULL,
@@ -20,5 +25,5 @@ CREATE TABLE d_product (
 CREATE TABLE concerning_products(
     id_date INTEGER,
     id_product INTEGER,
-    units_replenished INTEGER,
+    units_replenished INTEGER
 );

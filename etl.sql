@@ -51,7 +51,6 @@ INSERT INTO d_product (ean, category) VALUES ('5702691740621', 'Ice Cream');
 INSERT INTO d_product (ean, category) VALUES ('4837859656463', 'Ice Cream');
 INSERT INTO d_product (ean, category) VALUES ('7837859656498', 'Chocolate');
 INSERT INTO d_product (ean, category) VALUES ('9772328462660', 'Milk');
-INSERT INTO d_product (ean, category) VALUES ('1234567891849', 'Vegetables');
 INSERT INTO d_product (ean, category) VALUES ('1585036988639', 'Internal organs');
 INSERT INTO d_product (ean, category) VALUES ('7994104764687', 'Chocolate');
 INSERT INTO d_product (ean, category) VALUES ('9299501459121', 'Musical Instruments');

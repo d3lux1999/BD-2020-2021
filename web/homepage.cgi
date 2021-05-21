@@ -14,6 +14,11 @@ print('<p>Category name: <input type="text" name="name" required/></p>')
 print('<p><input type="submit" value="Create Category"/></p>')
 print('</form>')
 
+print('<h3>Insert Sub Categories</h3>')
+print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/sub_category.cgi" method="post">')
+print('<input type="submit" value="Go to Categories" />')
+print('</form>')
+
 print('<h3>Remove category</h3>')
 print('<form action="remove_category_update.cgi" method="post">')
 print('<p>Category name: <input type="text" name="name" required/></p>') 
@@ -39,10 +44,6 @@ print('<p>Product ean: <input type="text" name="ean" required/></p>')
 print('<p><input type="submit" value="Remove Product"/></p>')
 print('</form>')
 
-print('<h3>Insert Sub Categories</h3>')
-print('<form action="http://web2.tecnico.ulisboa.pt/ist195493/sub_category.cgi" method="post">')
-print('<input type="submit" value="Go to Categories" />')
-print('</form>')
 
 print('<h3>List replenish event</h3>')
 print('<form action="replenish_event.cgi" method="post">')
